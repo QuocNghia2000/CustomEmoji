@@ -26,6 +26,18 @@ android {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
+
+}
+
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.custom.emoji'
+            artifactId = 'library'
+            version = '1.1'
+        }
+    }
 }
 
 dependencies {
