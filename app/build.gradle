@@ -34,15 +34,15 @@ android {
 }
 
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            groupId = 'com.custom.emoji'
-            artifactId = 'library'
-            version = '1.1'
-        }
-    }
-}
+//publishing {
+//    publications {
+//        mavenJava(MavenPublication) {
+//            groupId = 'com.custom.emoji'
+//            artifactId = 'library'
+//            version = '1.1'
+//        }
+//    }
+//}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
