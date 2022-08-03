@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -13,6 +14,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import github.ankushsachdeva.emojicon.EmojiconsPopup;
+import github.ankushsachdeva.emojicon.emoji_whatsapp.AXWhatsAppEmojiData;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -22,7 +24,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        showEmoticons();
+        //showEmoticons();
+        for (String item:AXWhatsAppEmojiData.getDataRow0()) {
+            Log.d("22222", item+"");
+        }
+
     }
 
     public void showEmoticons() {
