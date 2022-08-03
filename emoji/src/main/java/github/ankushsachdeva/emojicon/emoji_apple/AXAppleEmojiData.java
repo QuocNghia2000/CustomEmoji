@@ -152,5 +152,19 @@ public class AXAppleEmojiData {
     public final static ArrayList<String> getDataRow7() {
         return new ArrayList<>(Arrays.asList(data[7]));
     }
+
+    public final static ArrayList<String> getCategories()
+    {
+        ArrayList<String> temp = new ArrayList<>();
+        temp.add(getDataRow0().get(0));
+        temp.add(getDataRow1().get(0));
+        temp.add(getDataRow2().get(0));
+        temp.add(getDataRow3().get(0));
+        temp.add(getDataRow4().get(0));
+        temp.add(getDataRow5().get(0));
+        temp.add(getDataRow6().get(0));
+        temp.add(getDataRow7().get(0));
+        return temp;
+    }
 }
 

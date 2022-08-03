@@ -14,6 +14,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import github.ankushsachdeva.emojicon.EmojiconsPopup;
+import github.ankushsachdeva.emojicon.emoji_apple.AXAppleEmojiData;
 import github.ankushsachdeva.emojicon.emoji_whatsapp.AXWhatsAppEmojiData;
 
 
